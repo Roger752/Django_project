@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Django_app.apps.DjangoAppConfig' # Django_App\apps.py 안에 클래스 이름 지정
 ]
 
 MIDDLEWARE = [
